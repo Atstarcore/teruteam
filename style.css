@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    background: #f8b1f8;
+    background: linear-gradient(90deg, #f8b1f8 0%, rgba(34,1,34,1) 33%, rgba(0,0,0,1) 65%, rgba(231,0,255,1) 100%);
+}
+html{
+  scroll-behavior: smooth;
+}
+h1{
+    font-family: 'Poppins';
+    text-align: center;
+    color: aliceblue;
+}
+h3{
+    font-family: 'Poppins';
+    color: aliceblue;
+}
+p{
+    font-family: 'Poppins';
+    text-align: center;
+    color: aliceblue;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #333;
+    border-radius: 23px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   
+  }
+  li {
+    float: left;
+  }
+  
+  a {
+    font-family: 'Poppins';
+    padding: 8px;
+    
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /*just hover for nav bar :trolley:*/
+  li a:hover {
+    background-color: #818181;
+    transition: 0.4s;
+  }
+  /* scroolbar (plz de cai nay o cuoi)(lam on)(toi xin bn)(nen tu sat) */
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: #520c43;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background: #612759;
+}
