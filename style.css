@@ -6,12 +6,30 @@ body{
 html{
   scroll-behavior: smooth;
 }
+button{
+  background-color: rgb(229, 21, 248);
+  color: #ffffff;
+  border: none;
+  padding: 10px 24px;
+  display: flex;
+  justify-content: center;
+  font-size: 19px;
+  border-radius: 34px; 
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover{
+  background-color: rgb(25, 238, 253);
+  color: #cc28f5;
+  transition: 0.4s;
+}
 h1{
     font-family: 'Poppins';
     text-align: center;
     color: aliceblue;
 }
 h3{
+    text-align: center;
     font-family: 'Poppins';
     color: aliceblue;
 }
@@ -28,7 +46,7 @@ ul {
     background-color: #333;
     border-radius: 23px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-   
+    align-items: center;
   }
   li {
     float: left;
@@ -51,6 +69,58 @@ ul {
     background-color: #818181;
     transition: 0.4s;
   }
+iframe{
+  align-items: center;
+  border-radius: 30px;
+}
+.hr1{
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 12px;
+}
+.hr2{
+  border: 3px solid rgb(0, 17, 255);
+  border-radius: 12px;
+}
+.hr3{
+  border: 3px solid rgb(85, 85, 85);
+  border-radius: 12px;
+}
+.hr4{
+  border: 3px solid rgb(0, 253, 0);
+  border-radius: 12px;
+}
+.hr5{
+  border: 3px solid rgb(241, 241, 241);
+  border-radius: 12px;
+}
+.hr6{
+  border: 3px solid rgb(0, 17, 255);
+  border-radius: 12px;
+}
+.hr7{
+  border: 3px solid rgb(9, 255, 0);
+  border-radius: 12px;
+}
+.hr8{
+  border: 3px solid rgb(19, 114, 101);
+  border-radius: 12px;
+}
+.hr9{
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 12px;
+}
+
+
+  /* for gdbrower link :nerd: */
+.link-text{ transition: .35s; }
+
+.link-text:hover{ color: aliceblue; }
+  
+.link-text::after{ color: blue; }
+
+/* giam padding top */
+.profile-caption { padding-top: 20px; }
+
   /* scroolbar (plz de cai nay o cuoi)(lam on)(toi xin bn)(nen tu sat) */
 ::-webkit-scrollbar{
   width: 10px;

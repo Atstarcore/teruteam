@@ -1,4 +1,3 @@
-alert ('ur pc has been hack lol')
 var a = ('du e di vao ngo nho')
 var hoatDong = a
 
@@ -7,8 +6,6 @@ if (hoatDong = a) {
 }else{
     console.log ('keep yourself safe')
 }
-
-prompt ('me m co beo k???')
 
 
 
