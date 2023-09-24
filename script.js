@@ -12,7 +12,6 @@ if (hoatDong = a) {
 
 
 
-
 /**
  * chu y
  * cac thanh vien cua nhom gdvl
