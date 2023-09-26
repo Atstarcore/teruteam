@@ -55,11 +55,7 @@ ul {
   }
   li {
     float: left;
-    
-  }
-  .right_text{
-    text-align: right;
-  }
+    }
   .left_text{
     text-align: left;
   }
