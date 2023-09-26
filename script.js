@@ -8,31 +8,3 @@ if (hoatDong = a) {
 }
 
 
-
-
-
-
-/**
- * chu y
- * cac thanh vien cua nhom gdvl
- * no quan
- * no cap
- * no bitches
- * 
- * zodiac
- * rap cham thoi
- * ng ha loi
- * nguyen huyen
- * acu
- * acheron
- * ambatukum
- * giao duc viet nam
- * giao dich viec lam
- * 48h
- * tidal wave
- * slaughterhouse
- * tf
- *
- * tmcn 
- * acu moment 
- */
